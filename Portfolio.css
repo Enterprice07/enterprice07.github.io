@@ -1,0 +1,270 @@
+header {
+    background-color: #4b5f5c; /* Cambia este color al que desees */
+    color: white; /* Color del texto */
+    padding: 20px; /* Espaciado interno */
+    text-align: center; /* Centrar el texto */
+    font-size: 24px; /* Tamaño de la fuente */
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2); /* Sombra para darle profundidad */
+}
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+h1 {
+    font-size: 60px; /* Tamaño de fuente grande para el h1 */
+    color: black; /* Color del texto */
+    text-align: center; /* Centra el texto */
+    text-shadow: 
+        2px 2px 0 rgba(255, 255, 255, 0.5), /* Sombra blanca */
+        4px 4px 0 rgba(0, 0, 0, 0.3), /* Sombra negra */
+        6px 6px 0 rgba(0, 0, 0, 0.2); /* Sombra negra más suave */
+    transform: perspective(500px) rotateX(10deg); /* Efecto 3D */
+}
+.logo {
+    width: 200px; 
+    position: absolute;
+    top: 35px;
+    left: 35px;
+}
+.header {
+    background-image: url('background.jpg');
+    color: rgb(0, 0, 0);
+    text-align: center;
+    padding: 50px 0;
+}
+.banner {
+    position: relative;
+}
+.navbar ul {
+    list-style: none;
+    padding: 0;
+}
+
+.navbar ul li {
+    display: inline;
+    margin: 0 15px;
+}
+
+.navbar a {
+    color: blue;
+    text-decoration: none;
+}
+
+#proyectos {
+    text-align: center; /* Centra el texto dentro de la sección */
+    margin: 40px 0; /* Espaciado vertical alrededor de la sección */
+}
+
+.projects-table {
+    width: 80%; /* Puedes ajustar el ancho según sea necesario */
+    max-width: 1000px; /* Ancho máximo para la tabla */
+    margin: 0 auto; /* Centra la tabla horizontalmente */
+    border-collapse: collapse; /* Elimina espacios entre celdas */
+}
+
+.projects-table td {
+    width: 33.33%; /* Cada celda ocupa un tercio de la tabla */
+    padding: 20px; /* Espaciado interno */
+    text-align: center; /* Centra el contenido de cada celda */
+    vertical-align: top; /* Alinea el contenido en la parte superior */
+    border: 1px solid black; /* Borde de las celdas */
+    border-radius: 8px; /* Bordes redondeados */
+    background-color: #f9f9f9; /* Fondo suave */
+    transition: background-color 0.3s; /* Transición para el hover */
+    background-color: #757168;
+}
+
+.projects-table td:hover {
+    background-color: rgb(58, 87, 104); /* Cambio de color al pasar el ratón */
+}
+
+.project img {
+    max-width: 100%; /* Asegura que la imagen no exceda el ancho de la celda */
+    height: auto; /* Mantiene la proporción de la imagen */
+    border-radius: 8px; /* Bordes redondeados para las imágenes */
+}
+
+.project h3 {
+    margin: 10px 0 5px; /* Espaciado del título */
+}
+
+.project p {
+    font-size: 14px; /* Tamaño de fuente para la descripción */
+    color: rgb(34, 33, 33); /* Color de la descripción */
+}
+#contacto {
+    background-color:rgb(59, 55, 55); /* Fondo azul oscuro */
+    color: white; /* Color del texto */
+    padding: 20px; /* Espaciado interno */
+    border-radius: 15px; /* Bordes redondeados */
+    max-width: 400px; /* Ancho máximo del cuadro */
+    margin: 20px auto; /* Centra el cuadro en la página */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2); /* Sombra para darle profundidad */
+}
+
+#contacto h2 {
+    text-align: center; /* Centra el título */
+    margin-bottom: 15px; /* Espaciado inferior */
+}
+
+#contacto input, #contacto textarea {
+    width: 100%; /* Ancho completo */
+    padding: 10px; /* Espaciado interno */
+    margin: 10px 0; /* Espaciado vertical */
+    border: none; /* Sin borde */
+    border-radius: 5px; /* Bordes redondeados */
+}
+
+#contacto input {
+    background-color: #86bac7; /* Fondo claro para los campos de entrada */
+}
+
+#contacto textarea {
+    background-color: #86bac7 (0, 102, 128); /* Fondo claro para el área de texto */
+    resize: none; /* Evita el redimensionamiento del área de texto */
+}
+
+#contacto button {
+    background-color: #66ccff; /* Fondo azul claro para el botón */
+    color: black; /* Color del texto del botón */
+    border: none; /* Sin borde */
+    padding: 10px 20px; /* Espaciado interno */
+    cursor: pointer; /* Cambia el cursor al pasar por encima */
+    border-radius: 8px; /* Bordes redondeados */
+    display: block; /* Hace que el botón ocupe el ancho completo */
+    margin: 10px auto; /* Centra el botón */
+    transition: background-color 0.3s; /* Transición para el hover */
+}
+
+#contacto button:hover {
+    background-color: #1f7dac; /* Color al pasar el ratón */
+}
+#sobre-mi {
+    background-color: rgb(168, 165, 165); /* Fondo suave (blanco con opacidad) */
+    color: #333; /* Color del texto */
+    padding: 20px; /* Espaciado interno */
+    border-radius: 15px; /* Bordes redondeados */
+    max-width: 600px; /* Ancho máximo del cuadro */
+    margin: 40px auto; /* Centra el cuadro en la página */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2); /* Sombra para darle profundidad */
+    text-align: center; /* Centra el texto dentro del cuadro */
+}
+
+#sobre-mi h2 {
+    margin-bottom: 15px; /* Espaciado inferior del título */
+}
+
+#sobre-mi p {
+    line-height: 1.5; /* Espaciado entre líneas para mejor legibilidad */
+}
+/* Make sure that padding behaves as expected */
+* {box-sizing:border-box}
+#habilidades {
+    background-color: rgb(168, 165, 165); /* Fondo blanco para la sección */
+    border-radius: 20px; /* Bordes redondeados */
+    padding: 40px; /* Espaciado interno */
+    max-width: 600px; /* Ancho máximo del cuadro */
+    margin: 40px auto; /* Centra el cuadro en la página */
+    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.2); /* Sombra para darle profundidad */
+    text-align: center; /* Centra el texto dentro del cuadro */
+}
+
+#habilidades h2 {
+    margin-bottom: 20px; /* Espaciado inferior del título */
+}
+
+#habilidades ul {
+    list-style: none; /* Elimina los puntos de la lista */
+    padding: 0; /* Elimina el padding */
+}
+
+#habilidades li {
+    font-size: 18px; /* Tamaño de fuente para las habilidades */
+    margin: 10px 0; /* Espaciado vertical entre las habilidades */
+    color: #333; /* Color del texto */
+}
+
+/* Container for skill bars */
+.container {
+  width: 100%; /* Full width */
+  background-color: #ddd; /* Grey background */
+}
+
+.skills {
+  text-align: right; /* Right-align text */
+  padding-top: 10px; /* Add top padding */
+  padding-bottom: 10px; /* Add bottom padding */
+  color: white; /* White text color */
+}
+
+.html {width: 80%; background-color: #8db95b;} /* Green */
+.css {width: 75%; background-color: #51caa6;} /* Blue */
+
+a {
+    color: #007bff; /* Color inicial de los enlaces */
+    text-decoration: none; /* Sin subrayado inicialmente */
+    transition: color 0.3s ease; /* Transición suave para el cambio de color */
+}
+
+a:hover {
+    color: lightgreen; /* Color verde claro al pasar el cursor */
+}
+
+a:active,
+a.clicked {
+    text-decoration: line-through; /* Línea encima del enlace al hacer clic */
+    color: #007bff; /* Mantiene el color inicial después de hacer clic */
+}
+
+.about-me {
+    display: flex; /* Usar flexbox para la disposición horizontal */
+    justify-content: center; /* Centra los elementos horizontalmente */
+    flex-wrap: wrap; /* Permite que los elementos se envuelvan en la línea siguiente si es necesario */
+    margin: 20px; /* Margen alrededor de la sección */
+}
+
+.app {
+    text-align: center; /* Centra el texto y la imagen dentro de cada bloque */
+    margin: 10px; /* Espacio entre cada bloque de aplicación */
+}
+
+.app img {
+    margin-top: 5px; /* Espacio entre el nombre y el icono */
+    width: 50px; /* Ajusta el ancho de la imagen según sea necesario */
+    object-fit: cover; /* Asegura que las imágenes mantengan su proporción y se recorten si es necesario */
+    height: auto; /* Mantiene la proporción de la imagen */
+}
+body {
+    background: linear-gradient(to right, #757168, #4d4940da); /* Degradado de color de naranja a amarillo */
+}
+.cookie-banner {
+    position: fixed; /* Posiciona el cuadro de cookies de manera fija */
+    top: 50%; /* 50% desde la parte superior de la ventana */
+    left: 50%; /* 50% desde la parte izquierda de la ventana */
+    transform: translate(-50%, -50%); /* Mueve el cuadro hacia arriba y hacia la izquierda para centrarlo */
+    background-color: #978f8f; /* Color de fondo del cuadro */
+    border: 1px solid #020202; /* Borde del cuadro */
+    padding: 20px; /* Espaciado interno */
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1); /* Sombra para darle profundidad */
+    z-index: 1000; /* Asegúrate de que esté por encima de otros elementos */
+}
+.cookie-container {
+    text-align: center; /* Centrar el texto dentro del contenedor */
+}
+.accept-btn {
+    background-color: #4CAF50; /* Color del botón */
+    color: white; /* Color del texto del botón */
+    border: none; /* Sin borde */
+    border-radius: 5px; /* Bordes redondeados para el botón */
+    padding: 15px 30px; /* Espaciado interno del botón */
+    cursor: pointer; /* Cambiar el cursor al pasar sobre el botón */
+    font-size: 16px; /* Tamaño de la fuente del botón */
+    transition: background-color 0.3s; /* Transición suave para el color de fondo */
+    display: block; /* Asegúrate de que el botón sea un bloque para ocupar toda la línea */
+    margin-top: 10px; /* Espacio entre el texto y el botón */
+}
+
+.accept-btn:hover {
+    background-color: #000000; /* Color del botón al pasar el mouse */
+}
